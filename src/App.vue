@@ -40,6 +40,7 @@
 </template>
 
 <script>
+import "@/assets/css/styles.css";
 export default {
   name: 'App',
 

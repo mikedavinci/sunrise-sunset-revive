@@ -79,7 +79,7 @@ export default {
 
       Swal.fire({
         title: 'Sun Results',
-        text: `Sunrise: ${sunrise} \nSunset: ${sunset}`,
+        html: `Sunrise: ${sunrise} <br> Sunset: ${sunset}`,
         icon: 'success',
         confirmButtonColor: '#28a745',
         denyButtonColor: '#757575',
